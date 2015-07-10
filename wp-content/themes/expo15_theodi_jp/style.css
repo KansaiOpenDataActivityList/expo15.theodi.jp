@@ -1,0 +1,131 @@
+/*
+Theme Name:     expo15.theodi.jp
+Description:    Twentythirteen child theme.
+Author:         Takayuki Miyauchi
+Template:       twentythirteen
+Version:        0.1.0
+*/
+
+@import '../twentythirteen/style.css';
+
+body
+{
+	overflow: hidden;
+}
+
+img
+{
+    max-width: 100%;
+    border-sizing: border-box;
+}
+
+.amimoto
+{
+	max-width:100%;
+	width: 100%;
+}
+
+.site
+{
+    max-width: 960px;
+}
+
+.site-header
+{
+    margin-bottom: 30px;
+}
+
+.site-header
+.home-link
+{
+    padding: 0;
+}
+
+.site-header h1
+{
+    margin: 0;
+    padding: 0;
+}
+
+.site-footer
+{
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: #89c997;
+}
+
+.site-info
+{
+    color: #ffffff;
+}
+
+.entry-header,
+.entry-content,
+.entry-meta,
+.content-bootstrap-3-area
+{
+    width: 750px !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    box-sizing: border-box;
+}
+
+.widget
+{
+    background-color: #ffffff;
+    border-bottom: 1px solid #dedede;
+    padding: 30px 0;
+    margin-bottom: 30px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.widget-title
+{
+    font: 600 normal 40px "Source Sans Pro", Helvetica, sans-serif !important;
+    text-align: center;
+}
+
+.content-bootstrap-3-area .label
+{
+    font-weight: normal !important;
+}
+
+.widget-icon
+{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    border: 3px solid #555555;
+    font-size: 80px;
+    line-height: 140px;
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.amimoto
+{
+    margin: 10px auto;
+}
+
+.amimoto img
+{
+    width: auto;
+    height: 24px;
+    margin-left: 1em;
+}
+
+.navbar
+{
+
+}
+
+.site-main
+{
+	max-width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
