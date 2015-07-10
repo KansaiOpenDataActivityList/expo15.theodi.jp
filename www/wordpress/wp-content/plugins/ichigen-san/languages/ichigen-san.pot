@@ -1,0 +1,76 @@
+# Copyright (C) 2014 Ichigen San
+# This file is distributed under the same license as the Ichigen San package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ichigen San 0.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/ichigen-san\n"
+"POT-Creation-Date: 2014-09-04 04:23:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: ichigen-san.php:55 ichigen-san.php:59
+msgid "Set Ichigen San"
+msgstr ""
+
+#: ichigen-san.php:67
+msgid "Setting initialization"
+msgstr ""
+
+#: ichigen-san.php:68 ichigen-san.php:188
+msgid "Initialization"
+msgstr ""
+
+#: ichigen-san.php:78
+msgid "General"
+msgstr ""
+
+#: ichigen-san.php:84
+msgid "Enabling Ichogen San"
+msgstr ""
+
+#: ichigen-san.php:92
+msgid "Disabled"
+msgstr ""
+
+#: ichigen-san.php:93
+msgid "Login screen"
+msgstr ""
+
+#: ichigen-san.php:94
+msgid "Basic authentication"
+msgstr ""
+
+#: ichigen-san.php:100
+msgid "Basic User"
+msgstr ""
+
+#: ichigen-san.php:111
+msgid "Basic Password"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Ichigen San"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/ichigen-san/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Because you can not be viewed unless you log When you activate this plug-in, "
+"You can start a private blog. Furthermore, you can also be used for "
+"communication between the acquaintance."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Webnist"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://profiles.wordpress.org/webnist"
+msgstr ""

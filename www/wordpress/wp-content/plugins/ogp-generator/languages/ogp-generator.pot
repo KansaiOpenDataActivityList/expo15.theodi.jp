@@ -1,0 +1,67 @@
+# Copyright (C) 2015 OGP Generator
+# This file is distributed under the same license as the OGP Generator package.
+msgid ""
+msgstr ""
+"Project-Id-Version: OGP Generator 0.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/ogp-generator\n"
+"POT-Creation-Date: 2015-04-30 09:38:20+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: inc/output.php:29
+msgid "Archive of: "
+msgstr ""
+
+#: nskw-ogp-generator.php:22
+msgid "OGP Settings"
+msgstr ""
+
+#: nskw-ogp-generator.php:30
+msgid "Default Image"
+msgstr ""
+
+#: nskw-ogp-generator.php:39 nskw-ogp-generator.php:48
+msgid "App ID/fb:admins ID"
+msgstr ""
+
+#: nskw-ogp-generator.php:63
+msgid "Upload a default image and set facebook id."
+msgstr ""
+
+#: nskw-ogp-generator.php:72
+msgid ""
+"Url of the default image.<br />This image will be used in all pages except "
+"posts/pages/cutom posts with post thumbnails.<br />At least 600x315 pixels, "
+"but it's better to have a bigger one. Recommendation is 1200×630 pixels.<br /"
+">You can upload your image <a target=\"_blank\" href=\"%s\" target=\"_blank"
+"\">at your \"add new media\" page</a>."
+msgstr ""
+
+#: nskw-ogp-generator.php:83
+msgid ""
+"Input your facebook App ID. Your App ID can be found <a href=\"https://www."
+"facebook.com/help/community/question/?id=372967692803654\">here.</a>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "OGP Generator"
+msgstr ""
+
+#. #-#-#-#-#  ogp-generator.pot (OGP Generator 0.5)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  ogp-generator.pot (OGP Generator 0.5)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://th-daily.shinichi.me"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Generates your OGP with simple configurations."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Shinichi Nishikawa"
+msgstr ""
