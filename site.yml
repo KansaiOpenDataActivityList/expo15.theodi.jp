@@ -1,0 +1,16 @@
+# encoding: utf-8
+# vim: ft=ruby expandtab shiftwidth=2 tabstop=2
+
+#
+# Network Settings
+#
+hostname: expo15.theodi.dev
+ip: 192.168.15.15
+
+#
+# WordPress Settings
+#
+version: latest
+lang: ja
+
+theme_unit_test: false
