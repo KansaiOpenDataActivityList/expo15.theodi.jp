@@ -11,7 +11,7 @@ $ vagrant up
 Login into WordPress
 
 ```
-URL: http://expo15.theodi.dev/
+URL: http://expo15.theodi.dev/wp-admin/
 User: admin@example.com
 Pass: admin
 ```
