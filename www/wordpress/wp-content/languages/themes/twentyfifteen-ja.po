@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-07-08 13:52:29+0000\n"
+"PO-Revision-Date: 2015-04-12 07:51:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,14 +10,9 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: Twenty Fifteen\n"
 
-#. translators: %s: post title
-#: inc/template-tags.php:123
-msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "<span class=\"screen-reader-text\">%s</span> にコメント"
-
 #. Theme URI of the plugin/theme
 msgid "https://wordpress.org/themes/twentyfifteen/"
-msgstr "https://ja.wordpress.org/themes/twentyfifteen/"
+msgstr "https://wordpress.org/themes/twentyfifteen/"
 
 #: single.php:37
 msgid "Previous post:"
@@ -31,51 +26,46 @@ msgstr "次の投稿:"
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "﻿小さい画面上のヘッダーと、幅広い画面上のサイドバーに適用されます。"
 
-#: single.php:36
-msgid "Previous"
-msgstr "前"
-
 #: single.php:33
 msgid "Next"
 msgstr "次"
 
-#: inc/customizer.php:46
-msgid "Header and Sidebar Text Color"
-msgstr "ヘッダー・サイドバーテキスト色"
-
-#: inc/template-tags.php:91 inc/template-tags.php:99
-msgctxt "Used between list items, there is a space after the comma."
-msgid ", "
-msgstr ", "
-
-#: image.php:24
-msgid "Previous Image"
-msgstr "前の画像"
-
-#: image.php:24
-msgid "Next Image"
-msgstr "次の画像"
-
-#: inc/template-tags.php:23
-msgid "Comment navigation"
-msgstr "コメントナビゲーション"
-
-#: search.php:18
-msgid "Search Results for: %s"
-msgstr "検索結果: %s"
+#: single.php:36
+msgid "Previous"
+msgstr "前"
 
 #. Author of the plugin/theme
 msgid "the WordPress team"
 msgstr "WordPress チーム"
 
+#. Description of the plugin/theme
+msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
+msgstr "2015年のデフォルトテーマはクリーンでブログ向けに、分かりやすさを考えて設計されています。Twenty Fifteen の単純明快なタイポグラフィは多様な画面サイズで読みやすく、複数の言語に適しています。このテーマは「モバイル・ファースト」アプローチを使ってデザインしました。つまり、サイトの訪問者がスマートフォン・タブレット・ノートまたはデスクトップパソコンのどれを使ってサイトに訪れていても、あなたのコンテンツに最も注目が注がれるようになっているという意味です。"
+
 #. Theme Name of the plugin/theme
 msgid "Twenty Fifteen"
 msgstr "Twenty Fifteen"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: inc/template-tags.php:122
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: inc/template-tags.php:122
+msgid "1 Comment"
+msgstr "1件のコメント"
 
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "フルサイズ"
+
+#: inc/template-tags.php:122
+msgid "Leave a comment"
+msgstr "コメントをどうぞ"
 
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
@@ -86,6 +76,11 @@ msgstr "タグ"
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "カテゴリー"
+
+#: inc/template-tags.php:91 inc/template-tags.php:99
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
 
 #: inc/template-tags.php:85
 msgctxt "Used before post author name."
@@ -113,6 +108,10 @@ msgstr "新しいコメント"
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "注目"
+
+#: inc/template-tags.php:23
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
 
 #: inc/customizer.php:147
 msgid "Blue"
@@ -146,9 +145,21 @@ msgstr "ヘッダー・サイドバー背景色"
 msgid "Base Color Scheme"
 msgstr "ベース配色"
 
+#: inc/customizer.php:46
+msgid "Header and Sidebar Text Color"
+msgstr "ヘッダー・サイドバーテキスト色"
+
 #: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Fifteen には WordPress バージョン 4.1 以上が必要です。現在のバージョンは %s です。アップグレードしてもう一度お試しください。"
+
+#: image.php:24
+msgid "Previous Image"
+msgstr "前の画像"
+
+#: image.php:24
+msgid "Next Image"
+msgstr "次の画像"
 
 #: image.php:84
 msgctxt "Parent post link"
@@ -159,47 +170,6 @@ msgstr "<span class=\"post-title\">%title</span> <span class=\"meta-nav\">内で
 msgid "Menu and widgets"
 msgstr "﻿メニューとウィジェット"
 
-#. Description of the plugin/theme
-msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
-msgstr "2015年のデフォルトテーマはクリーンでブログ向けに、分かりやすさを考えて設計されています。Twenty Fifteen の単純明快なタイポグラフィは多様な画面サイズで読みやすく、複数の言語に適しています。このテーマは「モバイル・ファースト」アプローチを使ってデザインしました。つまり、サイトの訪問者がスマートフォン・タブレット・ノートまたはデスクトップパソコンのどれを使ってサイトに訪れていても、あなたのコンテンツに最も注目が注がれるようになっているという意味です。"
-
-#: content-link.php:36 content-page.php:25 content.php:38 image.php:59
-msgid "Pages:"
-msgstr "ページ:"
-
-#: content-link.php:56 content-page.php:35 content-search.php:28
-#: content-search.php:33 content.php:57 image.php:71
-msgid "Edit"
-msgstr "編集"
-
-#: footer.php:25
-msgid "Proudly powered by %s"
-msgstr "Proudly powered by %s"
-
-#: functions.php:85
-msgid "Primary Menu"
-msgstr "メインメニュー"
-
-#: header.php:26
-msgid "Skip to content"
-msgstr "コンテンツへ移動"
-
-#: content-none.php:15
-msgid "Nothing Found"
-msgstr "見つかりません"
-
-#: content-none.php:22
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>してください。"
-
-#: content-none.php:26
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
-
-#: content-none.php:31
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
-
 #: functions.php:255
 msgid "expand child menu"
 msgstr "サブメニューを展開"
@@ -207,6 +177,10 @@ msgstr "サブメニューを展開"
 #: functions.php:256
 msgid "collapse child menu"
 msgstr "サブメニューを閉じる"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "コンテンツへ移動"
 
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
@@ -248,9 +222,17 @@ msgstr "サイドバーに表示させるにはここにウィジェットを追
 msgid "Widget Area"
 msgstr "﻿ウィジェット エリア"
 
+#: functions.php:85
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
 #: functions.php:86
 msgid "Social Links Menu"
 msgstr "﻿ソーシャルリンクメニュー"
+
+#: footer.php:25
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
 
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.2)  #-#-#-#-#
 #. Author URI of the plugin/theme
@@ -258,29 +240,45 @@ msgstr "﻿ソーシャルリンクメニュー"
 msgid "https://wordpress.org/"
 msgstr "https://ja.wordpress.org/"
 
-#: comments.php:28
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "&ldquo;%2$s&rdquo; への%1$s件のフィードバック"
+#: content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: content-none.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>してください。"
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "見つかりません"
+
+#: content-link.php:56 content-page.php:35 content-search.php:28
+#: content-search.php:33 content.php:57 image.php:71
+msgid "Edit"
+msgstr "編集"
+
+#: content-link.php:36 content-page.php:25 content.php:38 image.php:59
+msgid "Pages:"
+msgstr "ページ:"
+
+#. translators: %s: Name of current post
+#: content-link.php:31 content.php:33 inc/template-tags.php:237
+msgid "Continue reading %s"
+msgstr "続きを読む %s"
 
 #: comments.php:53
 msgid "Comments are closed."
 msgstr "コメントは受け付けていません。"
 
-#. translators: %s: Name of current post
-#: content-link.php:31 content.php:33 inc/template-tags.php:238
-msgid "Continue reading %s"
-msgstr "続きを読む %s"
-
-#: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
-#: image.php:63 index.php:48 search.php:40
-msgid "Page"
-msgstr "ページ"
-
-#: 404.php:21
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "こちらには何もありません。検索をお試しください。"
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; への%1$s件のフィードバック"
 
 #: author-bio.php:34
 msgid "View all posts by %s"
@@ -290,14 +288,23 @@ msgstr "%s の投稿をすべて表示"
 msgid "Published by"
 msgstr "投稿者:"
 
-#: 404.php:17
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "﻿ページが見つかりません。"
+#: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
+#: image.php:63 index.php:48 search.php:40
+msgid "Page"
+msgstr "ページ"
+
+#: archive.php:50 index.php:47 search.php:39
+msgid "Next page"
+msgstr "次のページ"
 
 #: archive.php:49 index.php:46 search.php:38
 msgid "Previous page"
 msgstr "前のページ"
 
-#: archive.php:50 index.php:47 search.php:39
-msgid "Next page"
-msgstr "次のページ"
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "こちらには何もありません。検索をお試しください。"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "﻿ページが見つかりません。"
