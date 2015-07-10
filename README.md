@@ -12,7 +12,7 @@ Login into WordPress
 
 ```
 URL: http://expo15.theodi.dev/wp-admin/
-User: admin@example.com
+User: admin
 Pass: admin
 ```
 
